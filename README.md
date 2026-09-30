@@ -46,3 +46,13 @@ TypeScript 검사 및 production build 통과.
 브라우저에서 새 AI 흐름의 PNG 저장/클립보드 동작은 이번 작업에서 재검증하지 않았습니다.
 
 설계: docs/02-design/features/github-ai-meme.design.md
+
+## 배포
+
+- Vercel 사이트: https://commit-hero-iota.vercel.app
+- GitHub 저장소: https://github.com/ParkBG77/Commit_Hero
+- Vercel 프로젝트: DevTest / commit-hero
+- 2026-09-30 Bun 기반 원격 빌드와 production 배포 완료. 사이트 HTTP 200 확인.
+- 현재 단계는 사이트 배포만 완료했다. GitHub 자동 배포 연결은 미완료다.
+- Production 환경에 OPENAI_API_KEY가 아직 없어 실제 AI 카드 생성은 사용할 수 없다.
+- 사용자의 요청에 따라 GitHub 연결과 AI 키 등록은 후속 작업으로 남긴다.
