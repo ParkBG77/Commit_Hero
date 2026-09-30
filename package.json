@@ -1,0 +1,9 @@
+{
+  "name": "commit-hero",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "bun@1.4.2",
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "typecheck": "tsc --noEmit" },
+  "dependencies": { "next": "^16.0.0", "react": "^19.0.0", "react-dom": "^19.0.0", "html-to-image": "^1.11.13", "lucide-react": "^0.468.0" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^22.0.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0" }
+}

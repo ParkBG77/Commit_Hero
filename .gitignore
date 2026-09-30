@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.tools/
+.env*
+!.env.example
+*.tsbuildinfo
+out/
+test-results/
